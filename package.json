@@ -3,6 +3,8 @@
   "main": "client/index.js",
   "version": "1.0.0",
   "scripts": {
+    "start": "npx expo start",
+    "web": "npx expo start --web",
     "expo:dev": "npx expo start --localhost",
     "server:dev": "NODE_ENV=development tsx server/index.ts",
     "expo:start:static:build": "npx expo start --no-dev --minify --localhost",
