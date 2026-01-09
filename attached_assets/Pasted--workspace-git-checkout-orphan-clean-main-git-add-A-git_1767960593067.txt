@@ -1,0 +1,76 @@
+~/workspace$ git checkout --orphan clean-main
+git add -A
+git commit -m "Secret Calculator v1.0.0 - Calculator with hidden notes vault"
+git branch -D main
+git branch -m main
+git push --force origin main
+Switched to a new branch 'clean-main'
+[clean-main (root-commit) a2f2234] Secret Calculator v1.0.0 - Calculator with hidden notes vault
+ 55 files changed, 23021 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 app.json
+ create mode 100644 assets/images/android-icon-background.png
+ create mode 100644 assets/images/android-icon-foreground.png
+ create mode 100644 assets/images/android-icon-monochrome.png
+ create mode 100644 assets/images/empty-notes.png
+ create mode 100644 assets/images/favicon.png
+ create mode 100644 assets/images/icon.png
+ create mode 100644 assets/images/splash-icon.png
+ create mode 100644 attached_assets/Pasted-SECRET-NOTES-CALCULATOR-APP-Goal-Build-a-web-calculator_1767896286598.txt
+ create mode 100644 attached_assets/application-14d254dc-0dfe-48e3-802a-a7280491cfd1_1767945390106.apk
+ create mode 100644 attached_assets/generated_images/calculator_icon_with_hidden_keyhole.png
+ create mode 100644 attached_assets/generated_images/empty_notes_state_illustration.png
+ create mode 100644 attached_assets/image_1767943850862.png
+ create mode 100644 attached_assets/image_1767944014788.png
+ create mode 100644 attached_assets/image_1767944686024.png
+ create mode 100644 attached_assets/image_1767944836997.png
+ create mode 100644 attached_assets/image_1767944996261.png
+ create mode 100644 attached_assets/image_1767945080942.png
+ create mode 100644 babel.config.js
+ create mode 100644 client/App.tsx
+ create mode 100644 client/components/Button.tsx
+ create mode 100644 client/components/Card.tsx
+ create mode 100644 client/components/ErrorBoundary.tsx
+ create mode 100644 client/components/ErrorFallback.tsx
+ create mode 100644 client/components/KeyboardAwareScrollViewCompat.tsx
+ create mode 100644 client/components/Spacer.tsx
+ create mode 100644 client/components/ThemedText.tsx
+ create mode 100644 client/components/ThemedView.tsx
+ create mode 100644 client/constants/theme.ts
+ create mode 100644 client/hooks/useColorScheme.ts
+ create mode 100644 client/hooks/useColorScheme.web.ts
+ create mode 100644 client/hooks/useScreenOptions.ts
+ create mode 100644 client/hooks/useTheme.ts
+ create mode 100644 client/index.js
+ create mode 100644 client/lib/query-client.ts
+ create mode 100644 client/lib/storage.ts
+ create mode 100644 client/navigation/RootStackNavigator.tsx
+ create mode 100644 client/screens/CalculatorScreen.tsx
+ create mode 100644 client/screens/EditNoteScreen.tsx
+ create mode 100644 client/screens/NotesScreen.tsx
+ create mode 100644 design_guidelines.md
+ create mode 100644 drizzle.config.ts
+ create mode 100644 eas.json
+ create mode 100644 eslint.config.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 scripts/build.js
+ create mode 100644 server/index.ts
+ create mode 100644 server/routes.ts
+ create mode 100644 server/storage.ts
+ create mode 100644 server/templates/landing-page.html
+ create mode 100644 shared/schema.ts
+ create mode 100644 tsconfig.json
+Deleted branch main (was 9b4815a).
+Enumerating objects: 69, done.
+Counting objects: 100% (69/69), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (63/63), done.
+Writing objects: 100% (69/69), 39.75 MiB | 4.36 MiB/s, done.
+Total 69 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File attached_assets/application-14d254dc-0dfe-48e3-802a-a7280491cfd1_1767945390106.apk is 83.57 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/madhavchoudhary2007-netizen/Secret-Calculator.git
+ + 9b4815a...a2f2234 main -> main (forced update)
