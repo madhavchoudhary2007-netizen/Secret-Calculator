@@ -24,7 +24,7 @@ Tap the grid icon to return to the calculator.
 Download the APK from [Releases](../../releases) and install it on your device.
 
 ### Web
-Use the web version: [Live Demo](#) (https://secret-calculator.onrender.com)
+Use the web version: [Live Demo](https://secret-calculator.onrender.com)
 
 ---
 
